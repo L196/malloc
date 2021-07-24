@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/l/code/c/malloc/main.c
+malloc_custom.h
+/home/l/code/c/malloc/malloc_custom.h
+stdio.h
+-
+
+/home/l/code/c/malloc/malloc_custom.h
+assert.h
+-
+string.h
+-
+sys/types.h
+-
+unistd.h
+-
+
